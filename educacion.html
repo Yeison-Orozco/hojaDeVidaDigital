@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Yeison Orozco">
+        <meta name="description" content="Mi hoja de vida digital">
+        <meta name="keywords" content="Hoja,Vida,Curriculum,Vitae,Yeison,Orozco">
+        <title>Curriculum Vitae | Yeison Orozco</title>
+    </head>
+    <body>
+        <header>
+            <img src="img/logo2.svg" alt="logo2" title="Logo" width="350px">
+            <h1>Curriculum Vitae</h1>
+            <h2>Yeison Joan Orozco Castrillón</h2>
+            <h3>03/15/1992 | Manizales - Colombia</h3>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Educación</a></li>
+                    <li><a href="experiencia.html">Experiencia</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>Educación</h2>
+            <table cellpadding="10" cellspacing="0" border="1">
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Institución</th>
+                        <th>Lugar</th>
+                        <th>¿Culminó?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2008</td>
+                        <td>I.E. Bosques del Norte</td>
+                        <td>Manizales, Caldas</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>I.E. Bosques del Norte</td>
+                        <td>Manizales, Caldas</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>Google</td>
+                        <td>Virtual</td>
+                        <td>Si</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Agregar Estudios</h2>
+            <form>
+                <label for="anio"><strong>Año: </strong></label>
+                <select id="anio">
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <br>
+                <label for="institucion"><strong>Institución: </strong></label>
+                <input type="text" id="institucion" required>
+                <br>
+                <label for="lugar"><strong>Lugar: </strong></label>
+                <textarea id="lugar" rows="2" cols="20" required></textarea>
+                <br>
+                <strong>¿Culminó?</strong>
+                <label for="si">Si</label>
+                <input type="radio" name="culmino" value="si" id="si">
+                <label for="no">No</label>
+                <input type="radio" name="culmino" value="no" id="no">
+                <br><br>
+                <input type="submit" name="enviar" value="Enviar">
+            </form>
+
+        </section>
+        <br>
+        <footer>
+            &copy Derechos Reservados
+            <ul>
+                <li>
+                    <strong>Email:</strong> yeisonorozco@gmail.com
+                </li>
+                <li>
+                    <strong>Tel:</strong> (+57) 315 730 5117
+                </li>
+                <li>
+                    <strong>Ciudad:</strong> Manizales, Caldas - Colombia
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>
